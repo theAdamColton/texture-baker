@@ -1,0 +1,16 @@
+[project]
+name = "texture-baker"
+version = "0.1.0"
+description = "Small texture baker which rasterizes barycentric coordinates to a tensor"
+readme = "README.md"
+license = { file = "LICENSE.md" }
+requires-python = ">=3.11"
+dependencies = [
+    "numpy>=1.26.4",
+    "torch>=2.1.0",
+]
+
+
+[build-system]
+requires = ["torch>=2.1.0", "setuptools"]
+
